@@ -32,7 +32,7 @@ arr: [
 ]
 ```
 
-## Модели данных и роутинг:
+## Роутинг и запросы:
 
 ### 0. Login: POST
 
@@ -103,3 +103,20 @@ RESPONSE: 'Да похуй какой респонс'
 Либо то же, шо и создание, либо через UPDATE
 
 (Хотя нахуй оно надо?)
+
+## Дефолтные модели данных:
+При необходимости обновляем и используем везде        _// TODO: Прикрутить OpenAPI_
+
+[//]: # (TODO: Прикрутить OpenAPI)
+
+<details> 
+   <summary>User / Person </summary>
+
+   ```
+   id: int
+   name: String
+   image_url: String
+   position: String?
+   bio: String?
+   ```
+</details>
