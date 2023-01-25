@@ -21,7 +21,7 @@
 
 ## Конвенция json:
 
-1. **Ключи в lower_snake_case !!!**
+1. **Ключи в lowerCamelCase !!!**
 2. Массивы в виде
 
 ```
@@ -70,12 +70,12 @@ RESPONSE:
     {
       'id': 0,
       'name': 'Zalupa',
-      'image_url': 'qwerty.com/0.jpg'
+      'imageUrl': 'qwerty.com/0.jpg'
     },
     {
       'id': 1,
       'name': 'Pizda',
-      'image_url': 'qwerty.com/1.jpg'
+      'imageUrl': 'qwerty.com/1.jpg'
     }
   ]
 }
@@ -91,7 +91,7 @@ BODY:
 {
   'id': 1,
   'name': 'Pizda',
-  'image_url': 'qwerty.com/1.jpg'
+  'imageUrl': 'qwerty.com/1.jpg'
 }
 ```
 
@@ -101,7 +101,7 @@ RESPONSE:
 {
   'id': 1,
   'name': 'Pizda',
-  'image_url': 'qwerty.com/1.jpg'
+  'imageUrl': 'qwerty.com/1.jpg'
 }
 ```
 
@@ -129,7 +129,7 @@ RESPONSE: 'Да похуй какой респонс'
    ```
    id: int
    name: String
-   image_url: String
+   imageUrl: String
    position: String?
    bio: String?
    ```
