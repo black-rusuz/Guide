@@ -85,3 +85,4 @@
 ## Полезные ссылки:
 
 1. [Ресайз изображений](https://photokit.com/batch/?tool=resize)
+2. [Генератор QR-кодов](https://www.qrcode-monkey.com/)
