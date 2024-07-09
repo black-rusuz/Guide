@@ -10,7 +10,7 @@
 
    Если придерживаться правила "одна машина — один ключ", то стоит вписать имя компьютера.
 
-3. Оставляем всё пустым:,
+3. Оставляем всё пустым:
 
     - Enter file in which to save the key:
     - Enter passphrase (empty for no passphrase):
